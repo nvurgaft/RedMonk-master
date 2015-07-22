@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Red Monk</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Main Activity -->
+    <string name="intro_string">Choose an option from the left navigation drawer</string>
+
+    <!-- Status Fragment -->
+    <string name="status_fragment_title">Status</string>
+
+    <string name="status_fragment_name">Your Name:</string>
+    <string name="status_fragment_gender">Gender:</string>
+    <string name="status_fragment_gender_male">Male</string>
+    <string name="status_fragment_gender_female">Female</string>
+    <string name="status_fragment_height">Your Height (in centimeters):</string>
+    <string name="status_fragment_weight">Your Weight (in kilograms):</string>
+
+    <!-- Daily Consumption Fragment -->
+    <string name="dc_fragment_title">Daily Consumption Information</string>
+    <string name="dc_new_log">New Log</string>
+
+    <!-- Daily Consumption Dialog -->
+    <string name="dc_enter_dc">Enter Daily Consumption</string>
+    <string name="dc_edit_dc">Edit Daily Consumption</string>
+    <string name="dc_calories">Calories: </string>
+    <string name="dc_carbohydrates">Carbohydrates: </string>
+    <string name="dc_proteins">Proteins: </string>
+    <string name="dc_fats">Fats: </string>
+
+    <!-- Contacts Fragment -->
+    <string name="contacts_fragment_title">Contacts</string>
+    <string name="contacts_fragment_new_contact">New Contact</string>
+
+    <!-- Contacts Edit Dialog -->
+    <string name="contacts_dialog_title_edit">Edit Contact</string>
+    <string name="contacts_dialog_title_create">Add New Contact</string>
+    <string name="contacts_dialog_contact_name">Contact name</string>
+    <string name="contacts_dialog_contact_role">Contact role</string>
+    <string name="contacts_dialog_1st_number">First number</string>
+    <string name="contacts_dialog_2nd_number">Second number</string>
+    <string name="contacts_dialog_3rd_number">Third number</string>
+
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Daily Reminder Fragment -->
+    <string name="daily_consumption_fragment_title">Daily Consumption</string>
+    <string name="dc_chart_fragment_title">Daily consumption chart</string>
+    <string name="dc_data_fragment_title">Daily consumption data</string>
+
+    <!-- Reminders Fragment -->
+    <string name="reminders_fragment_title">Reminders</string>
+    <string name="reminders_fragment_new_reminder">New Reminder</string>
+    <string name="resolved">Resolved</string>
+    <string name="unresolved">Unresolved</string>
+
+    <!-- Reminders Edit Dialog -->
+    <string name="reminders_dialog_title_edit">Edit Reminder</string>
+    <string name="reminders_dialog_title_create">Add New Reminder</string>
+    <string name="modify_date">Set Date</string>
+    <string name="modify_time">Set Time</string>
+    <string name="todo">Todo: </string>
+
+    <!-- Drawer Menu Items -->
+    <string name="stats_drawer_item">My Stats</string>
+    <string name="daily_consumption_drawer_item">Daily consumption</string>
+    <string name="reminders_drawer_item">Reminders</string>
+    <string name="contacts_drawer_item">Contacts</string>
+
+    <!-- Options Menu -->
+    <string name="action_settings">Preferences</string>
+    <string name="action_exit">Exit</string>
+
+    <!-- Settings Activity -->
+    <string name="settings_title">Application Settings</string>
+
+    <!-- Confirm Dialog -->
+    <string name="confirm_dialog_title">Confirm Action</string>
+    <string name="confirm_delete_contact_text">Are you sure you want to delete this contact : </string>
+    <string name="confirm_delete_reminder_text">Delete this reminder ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Preferences Activity-->
+    <string name="settings_category_clear_data">Clear Data</string>
+    <string name="settings_category_about">About</string>
+
+    <!-- Preferences Activity - Clear Data -->
+    <string name="setting_clear_contacts_title">Clear contacts</string>
+    <string name="setting_clear_contacts_summary">Deletes all stored contacts</string>
+    <string name="setting_clear_reminders_title">Clear Reminders</string>
+    <string name="setting_clear_reminders_summary">Deletes all stored reminders</string>
+    <string name="setting_clear_consumptions_title">Clear Consumption Log</string>
+    <string name="setting_clear_consumptions_summary">Deletes all daily consumptions logs</string>
+    <string name="setting_clear_all_title">Clear all user data</string>
+    <string name="setting_clear_all_summary">Remove all stored user information</string>
+
+    <string name="warning">This action is not recoverable!</string>
+
+    <!-- Emergency Widget -->
+    <string name="config_widget_title">RedMonk Emergency Caller</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Select a contact</string>
+    <string name="leave_widget_config">Cancel</string>
+    <string name="call">Call</string>
+
+    <!-- Preferences Activity - About -->
+    <string name="setting_visit_site_title">Visit Website</string>
+    <string name="setting_visit_site_summary">Opens a web view to the Project\'s Github page</string>
+    <string name="setting_about_title">Red Monk</string>
+    <string name="setting_about_summary">Open source license, written by Koby Vurgaft 2015</string>
+
+    <string name="remove_data_contacts">Delete all contacts</string>
+    <string name="remove_data_reminders">Delete all reminders</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="placeholder">:: placeholder ::</string>
+
+</resources>

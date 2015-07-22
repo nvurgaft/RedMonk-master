@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nvurgaft.redmonk.Fragments.ContactsFragment">
+
+    <TextView
+        android:id="@+id/contact_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contacts_fragment_title"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contactListView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/contact_title"
+        android:layout_above="@+id/newContactButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contacts_fragment_new_contact"
+        android:id="@+id/newContactButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

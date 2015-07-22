@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nvurgaft.redmonk.Fragments.RemindersFragment">
+
+    <TextView
+        android:id="@+id/reminders_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reminders_fragment_title"
+        android:textSize="@dimen/abc_text_size_medium_material" />
+
+    <ListView
+        android:id="@+id/remindersListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/newReminderButton"
+        android:layout_below="@+id/reminders_title"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/newReminderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reminders_fragment_new_reminder" />
+
+</RelativeLayout>
